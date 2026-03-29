@@ -1,1 +1,10 @@
-
+{
+  "name": "MiniDiary",
+  "binary_name": "minidiary",
+  "v1_spec": "SPEC-v1.txt",
+  "v1_test": "test-v1.sh",
+  "v1_prompt": "Implement {{binary_name}} as described in SPEC-v1.txt using {{language}}. The implementation must not use any loops or collections.",
+  "v2_spec": "SPEC-v2.txt",
+  "v2_test": "test-v2.sh",
+  "v2_prompt": "Read SPEC-v2.txt and extend the existing {{binary_name}} implementation with iterative listing and search capabilities."
+}
